@@ -1,0 +1,505 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 1200px;
+  margin-left: 300px;
+}
+
+.centering {
+  padding-left: calc(50% - 570px);
+  padding-right: calc(50% - 570px);
+}
+
+.header__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 400px;
+  margin-top: 44px;
+  margin-bottom: 44px;
+}
+.header__nav__left {
+  display: flex;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  gap: 10px;
+}
+.header__nav__left__text {
+  font-family: "DM Serif Display";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.header__nav__right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.header__nav__right__button {
+  font-family: "Jost";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+.header__img {
+  width: 1201px;
+  height: 758px;
+  top: 151px;
+  left: 360px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 758px;
+}
+.banner__img {
+  width: 1200px;
+  height: 758px;
+}
+.banner__sub__content {
+  position: absolute;
+  width: 434px;
+  height: 342px;
+  align-content: center;
+  justify-items: start;
+  margin-top: 208px;
+  margin-left: 52px;
+}
+.banner__sub__content__title {
+  font-family: "DM Serif Display";
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 81px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.banner__sub__content__text {
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.banner__sub__content__button {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 75px;
+  padding: 26px 49px 26px 48px;
+  border-radius: 18px;
+  gap: 7px;
+  background: #292F36;
+  margin-top: 21px;
+  cursor: pointer;
+}
+.banner__sub__content__button__text {
+  font-family: "Jost";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 737px;
+  height: 137px;
+  gap: 8px;
+  margin-top: 93px;
+}
+.project__heading__title {
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.project__heading__text {
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 50px;
+  margin-top: 93px;
+}
+.product__card__img1 {
+  width: 525px;
+  height: 548px;
+  border-top-right-radius: 75px;
+}
+.product__card__img2 {
+  width: 525px;
+  height: 548px;
+  border-top-left-radius: 75px;
+}
+.product__card__img3 {
+  width: 525px;
+  height: 548px;
+  border-bottom-right-radius: 75px;
+}
+.product__card__img4 {
+  width: 525px;
+  height: 548px;
+  border-bottom-left-radius: 75px;
+}
+.product__card__text {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: space-between;
+  margin-top: 28px;
+  gap: 170px;
+}
+.product__card__text__content__title {
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.product__card__text__content__description {
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.counter {
+  padding-top: 151px;
+  padding-bottom: 151px;
+  background-color: #f4f0ec;
+  margin-top: 96px;
+}
+.counter__wrap {
+  padding-left: 59px;
+  padding-right: 59px;
+}
+.counter__wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.counter__item {
+  text-align: center;
+  display: flex;
+  row-gap: 16px;
+  flex-direction: column;
+}
+.counter__item {
+  display: inline-block;
+  border-right: 1px solid #cda274;
+  padding-right: 60px;
+}
+.counter__item:last-child {
+  border-right: none;
+}
+.counter__item-title {
+  color: #cda274;
+  font-family: "DM Serif Display";
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  letter-spacing: 1.7px;
+}
+.counter__item-text {
+  color: #4d5053;
+  font-family: "Jost";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.22px;
+}
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.blog__heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 737px;
+  height: 137px;
+  gap: 8px;
+  margin-top: 96px;
+}
+.blog__heading__title {
+  font-family: "DM Serif Display";
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 63px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.blog__heading__text {
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+
+.blog_container {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 27px;
+  margin-top: 52px;
+}
+.blog_container__card {
+  width: 382px;
+  height: 521px;
+  border-radius: 75px;
+  border: 1px solid #E7E7E7;
+}
+.blog_container__card__button {
+  width: 129px;
+  height: 41px;
+  position: absolute;
+  margin-top: 249px;
+  margin-left: 41px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.blog_container__card__button__text {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.blog_container__card__img {
+  width: 340px;
+  height: 290px;
+  margin: 21px;
+}
+.blog_container__card__title {
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 305px;
+  height: 70px;
+  margin: 0px 35px 30px 21px;
+}
+.blog_container__text {
+  margin: 30px 21px 37px 21px;
+}
+.blog_container__text__content {
+  display: flex;
+  align-items: center;
+  gap: 145px;
+}
+.blog_container__text__content__description {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.blog_container__text__content__arrow {
+  width: 52px;
+  height: 52px;
+  left: 288px;
+}
+.blog_container__card2 {
+  width: 382px;
+  height: 521px;
+  border-radius: 75px;
+  border: 1px solid #E7E7E7;
+  background-color: #E7E7E7;
+}
+.blog_container__card2__button {
+  width: 129px;
+  height: 41px;
+  position: absolute;
+  margin-top: 249px;
+  margin-left: 41px;
+  border-radius: 8px;
+  background: #FFFFFF;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.blog_container__card2__button__text {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.blog_container__card2__img2 {
+  width: 340px;
+  height: 290px;
+  margin: 21px;
+}
+.blog_container__card2__title {
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  width: 305px;
+  height: 70px;
+  margin: 0px 35px 30px 21px;
+}
+.blog_container__text2 {
+  margin: 30px 21px 37px 21px;
+}
+.blog_container__text2__content2 {
+  display: flex;
+  align-items: center;
+  gap: 145px;
+}
+.blog_container__text2__content2__description2 {
+  font-family: "Jost";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.blog_container__text2__content2__arrow2 {
+  width: 52px;
+  height: 52px;
+  left: 288px;
+  color: #FFFFFF;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 33% 23% 43%;
+  margin-top: 96px;
+  gap: 100px;
+  margin-bottom: 134px;
+  align-items: flex-start;
+}
+.footer__logos {
+  margin-left: 0.5px;
+  width: 393px;
+  height: 134px;
+  display: grid;
+  gap: 18px;
+}
+.footer__logos__logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer__logos__logo__text {
+  font-family: "DM Serif Display";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer__logos__text {
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.footer__logos__icons {
+  display: flex;
+  align-items: center;
+  gap: 54px;
+}
+.footer__pages {
+  display: grid;
+  align-items: center;
+  gap: 18px;
+}
+.footer__pages__title {
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer__pages__text {
+  font-family: "Jost";
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}
+.footer__contacts {
+  display: grid;
+  align-items: center;
+  gap: 18px;
+  width: 258px;
+}
+.footer__contacts__title {
+  font-family: "DM Serif Display";
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer__contacts__text {
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  font-family: Jost;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0.01em;
+  text-align: left;
+}/*# sourceMappingURL=main.css.map */
