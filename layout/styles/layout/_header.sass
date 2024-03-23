@@ -1,0 +1,17 @@
+.header
+    @extend %center
+    @include flex_between()
+
+    margin-top: 44px
+    margin-bottom: 57px
+    &__logo
+        display: block
+
+    &__menu-list
+        @include flex()
+
+    &__menu-link
+        padding: 5px 25px
+
+    &__menu-link:hover
+        background-color: grey
